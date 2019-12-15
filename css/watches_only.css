@@ -1,0 +1,178 @@
+a:hover,
+a.watches {
+    color: #ffd700;
+}
+
+body {
+    font-family: clarendon-wide, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+    font-family: clarendon-wide, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h5 {
+    font-weight: 300;
+}
+
+.brandname_container {
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 55px;
+}
+
+.model_image {
+    max-width: 100%;
+}
+
+.models_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content_container {
+    margin: 16px;
+    width: 320px;
+    text-align: center;
+    background-color: black;
+}
+
+.white_box {
+    background-color: black;
+    color: white;
+    height: 130px;
+    padding: 10px;
+}
+
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 100px;
+    border-style: inset;
+    border-width: 0.5px;
+}
+
+.fa-tint-slash {
+    float: left;
+    font-size: 30px;
+}
+
+.fa-solar-panel {
+    float: right;
+    font-size: 30px;
+}
+
+.fa-calendar-alt {
+    float: right;
+    font-size: 30px;
+}
+
+.fa-gem {
+    float: right;
+    font-size: 30px;
+}
+
+.fa-stopwatch {
+    float: right;
+    font-size: 30px;
+}
+
+.fa-shield-alt {
+    float: right;
+    font-size: 30px;
+}
+
+.fa-running {
+    float: left;
+    font-size: 30px;
+}
+
+.fa-temperature-low {
+    float: right;
+    font-size: 30px;
+}
+
+.fa-bolt {
+    float: left;
+    font-size: 30px;
+}
+/*
+.img_hover_zoom {
+    overflow: hidden;
+}
+
+.img_hover_zoom img {
+    transition: transform .5s ease;
+}
+
+.img_hover_zoom img:hover {
+    transform: scale(1.2);
+}*/
+
+.watchmore_button {
+    background-color: #ffd700;
+    border: none;
+    color: black;
+    padding: 9px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lineup_button {
+    background-color: #ececec;
+    border: none;
+    color: black;
+    padding: 9px 16px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-style: italic;
+    cursor: pointer;
+    opacity: 0.7;
+    display: block;
+}
+
+.lineup_button_mobile {
+    background-color: #ececec;
+    border: none;
+    color: black;
+    padding: 9px 16px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-style: italic;
+    cursor: pointer;
+    opacity: 0.7;
+    display: none;
+}
+
+@media only screen and (min-width: 610px) {
+    .brandname_container {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .lineup_button {
+        display: none;
+    }
+    .lineup_button_mobile {
+        display: block;
+    }
+}

@@ -1,0 +1,115 @@
+a:hover,
+a.magazine {
+    color: #ffd700;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: clarendon-wide, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.articles_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 130px;
+}
+
+.first_article_photo {
+    max-width: 70%;
+    float: right;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 320px;
+    border-style: inset;
+    border-width: 1px;
+    color: white;
+}
+
+.article_button {
+    background-color: #ffd700;
+    border: none;
+    color: black;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 18px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-family: clarendon-wide, serif;
+    font-weight: 500;
+    font-style: normal;
+    float: right;
+}
+
+.hover_effect:hover {
+    opacity: 0.7;
+}
+
+.background_photo {
+    max-width: 100%;
+}
+
+.article {
+    position: absolute;
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.article_paragraph {
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+footer {
+    margin-top: 125px;
+}
+
+@media only screen and (max-width: 610px) {
+
+}
+
+@media only screen and (min-width: 610px) {
+    .first_article_photo {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    .article {
+        margin-top: 150px;
+        margin-left: 320px;
+        font-size: 18px;
+        height: 30vh;
+        width: 50vw;
+    }
+
+    .article_paragraph {
+        font-size: 20px;
+    }
+
+    .background_photo {
+        filter: gray;
+        -webkit-filter: grayscale(1);
+        -webkit-transition: all .8s ease-in-out;
+    }
+
+    .background_photo:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+        -webkit-transform: scale(1.01);
+    }
+
+}

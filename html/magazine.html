@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SEIKO Magazine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="SEIKO magazine" content="SEIKO's magazine with interesting articles.">
+    <meta name="robots" content="noindex"/>
+    <link rel="stylesheet" href="../css/mystyle.css">
+    <link rel="stylesheet" href="../css/magazine_only.css">
+    <link rel="stylesheet" href="https://use.typekit.net/odb6sgg.css">
+    <script src="https://kit.fontawesome.com/11b9e02d1a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Side menu-->
+    <div class="side_menu">
+        <nav class="container">
+            <a href="../html/index.html" class="navigation_item link">
+                <h4>HOME PAGE</h4>
+            </a>
+            <a href="../html/watches.html" class="navigation_item link">
+                <h4>WATCHES</h4>
+            </a>
+            <a href="#" class="navigation_item link">
+                <h4>ABOUT</h4>
+            </a>
+            <a href="../html/magazine.html" class="navigation_item link magazine">
+                <h4>MAGAZINE</h4>
+            </a>
+            <a href="#" class="navigation_item link">
+                <h4>STORE FINDER</h4>
+            </a>
+        </nav>
+        <div class="video_container">
+            <img src="../media/magazine_background.jpg" alt="Watch" class="front_photo"> <!-- Photo https://pixabay.com/images/search/seiko/-->
+        </div>
+        <!--Arrow for scrolling--> <!--Source https://freefrontend.com -->
+        <div class="arrow_container">
+            <a href="#abc">
+        <svg id="more-arrows">
+            <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 " />
+            <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 " />
+            <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 " />
+                </svg></a>
+        </div>
+    </div>
+
+    <main>
+        <!--Articles-->
+        <div class="articles_container" id="abc">
+            <a href="#"><img src="../media/article_st.jpg" alt="Background" class="background_photo"></a>
+            <section class="article">
+                <h2 class="second_article_text">5 reasons why wristwatches are the best christmast gifts</h2>
+                <p class="article_paragraph">Are you struggling to find the perfect Christmas present for your dad, brother or even your partner? Well, we've got 5 reasons why gifting one of our luxury watches is the perfect solution!</p>
+                <hr>
+                <button type="button" onclick="window.location.href = '../html/watches.html'" class="article_button hover_effect">READ MORE</button>
+            </section>
+        </div>
+
+        <div class="articles_container">
+            <a href="#"><img src="../media/article_nd.jpg" alt="Background" class="background_photo"></a>
+            <section class="article">
+                <h2 class="second_article_text">How to find a perfect wristwatch?</h2>
+                <p class="article_paragraph">Fashion accessories, perfect gadget or inseparable assistant that will help you always be on time? Depending on what are you looking for, we will help you find ideal wristwatch. Click for more to read our wristwatch-guide!</p>
+                <hr>
+                <button type="button" onclick="window.location.href = '../html/watches.html'" class="article_button hover_effect">READ MORE</button>
+            </section>
+        </div>
+
+        <div class="articles_container">
+            <a href="#"><img src="../media/article_rd.jpg" alt="Background" class="background_photo"></a>
+            <section class="article">
+                <h2 class="second_article_text">The best watches for men</h2>
+                <p class="article_paragraph">While people are replacing classic watches with smartwatches or other up-to-date gadgets, we want to prove that wristwatch is an essential accessories for all stylish men. Here you can find our hot top pieces that.</p>
+                <hr>
+                <button type="button" onclick="window.location.href = '../html/watches.html'" class="article_button hover_effect">READ MORE</button>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <!--Newsletter-->
+        <form action="action_page.php">
+            <div class="newsletter_container">
+                <h2>NEWSLETTER</h2>
+            </div>
+
+            <div class="newsletter_container">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+            </div>
+
+            <div class="newsletter_container">
+                <input type="submit" value="SUBSCRIBE" style="width: 30vw; font-weight: bold; background-color: #ffd700;">
+            </div>
+        </form>
+
+        <!--SOME icons--> <!-- Source https://codepen.io/ and https://fontawesome.com/ -->
+        <div class="center">
+            <div id="social-test">
+                <ul class="social">
+                    <li><i class="fab fa-facebook-f" aria-hidden="true"></i></li>
+                    <li><i class="fab fa-twitter" aria-hidden="true"></i></li>
+                    <li><i class="fab fa-instagram" aria-hidden="true"></i></li>
+                    <li><i class="fab fa-youtube" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
